@@ -1,0 +1,44 @@
+##Construa um script python que possua variáveis adequadas para armazenar:
+
+# 4 números;
+n1 = 5 
+n2 = 10
+n3= 15
+n4 = 20
+
+# uma frase;
+frase = "uma frase"
+
+# uma palavra.
+palavra = "palavra"
+
+
+# a média aritmética entre os quatro números;
+media = (n1 + n2 + n3 + n4) / 4
+print("Média aritmética dos quatro números:", media)
+
+# o quadrado de um dos números;
+quadrado = n2 ** 2
+print("Quadrado do segundo número:", quadrado)
+
+# o dobro de um dos números;
+dobro = n3 * 2
+print("O dobro do terceiro número:", dobro)
+
+# a quantidade de letras da palavra;
+quantidade_letras = len(palavra)
+print("Quantidade de letras na palavra:", quantidade_letras)
+
+# a quantidade de espaços em branco da frase;
+espacos = frase.count(' ')
+print("Quantidade de espaços na frase:",espacos)
+
+# se o primeiro número é maior que o segundo;
+if n1 > n2:
+    print("O primeiro número é maior que o segundo.")
+else:
+    print("O primeiro número não é maior que o segundo.")
+
+# o maior número;
+maior_numero = max(n1, n2, n3, n4)
+print("O maior número é:", maior_numero)
